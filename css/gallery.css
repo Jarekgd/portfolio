@@ -1,0 +1,16 @@
+*{
+    background-color: black;
+
+}
+
+#content{
+    padding: 50px;
+}
+
+img{
+object-fit:scale-down;
+  object-position: center;
+  height: 70vh;
+  overflow: hidden;
+  margin:auto;
+}

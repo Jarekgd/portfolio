@@ -1,0 +1,550 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  line-height: 1.5;
+  font-weight: 300;
+  font-family: "Arial", sans-serif;
+  font-weight:lighter;
+  padding: 0;
+  margin: 0;
+  overflow-x: hidden;
+  position: absolute;
+}
+
+#main{
+  overflow-x: hidden;
+
+}
+
+.main-nav {
+  display: flex;
+  width: 100vw;
+}
+  
+.push, .icon {
+  margin-left: auto;
+}
+
+.topnav {
+  overflow: hidden;
+  background-color: #000000;
+  position: fixed;
+  z-index: 4;
+  width: 100vw;
+  display: flex;
+}
+
+.topnav a {
+  float: left;
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.topnav a:hover {
+  font-weight: bold;
+}
+
+.topnav a.active {
+  color: rgba(255, 255, 255, 0.671);
+}
+
+.topnav .icon {
+  display: none;
+}
+
+
+#hero {
+  background-color: rgb(28, 0, 138);
+  color: rgb(251, 255, 0);
+}
+
+#square1{
+  background-color: rgb(200, 255, 0);
+}
+
+#square2{
+  background-color: rgb(0, 0, 0);
+height: 70vh;
+}
+
+#square3{
+  background-color: rgb(255, 0, 0);
+}
+
+#square3a{
+  background-color: rgb(255, 255, 255);
+}
+
+#square4{
+  background-color: rgb(255, 255, 255);
+  height: 70vh;
+}
+
+#square5{
+background-color: rgb(38, 2, 147);
+height: 50%;
+overflow: hidden;
+position: relative;
+}
+
+#square5 img:hover{
+opacity: 0.5;
+}
+
+#square5 img{
+  cursor: url('/img/pointer.png'), auto;
+  opacity: 0;
+  transition: 2s ease;
+ object-fit:scale-down;
+}
+
+#square5 .textGallery{
+  margin: 0;
+  position: absolute;
+  top: 10%;
+  left: 55%;
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+}
+
+#square6{
+  background-color: rgb(28, 142, 0);
+  height: 50%;
+  overflow: hidden;
+  position: relative;
+}
+
+#square6 img{
+  cursor: url('/img/pointer.png'), auto;
+  opacity: 0;
+  transition: 2s ease;
+}
+
+#square6 img:hover{
+  opacity: 0.5;
+  }
+
+  #square6 .textVideo{
+    margin: 0;
+    position: absolute;
+    top: 10%;
+    left: 55%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+  }
+
+  .targetBlank{
+    display: block;
+  }
+
+  .targetSelf{
+    display: none;
+  }
+
+#meImage{
+background-color: rgb(0, 64, 255);
+} 
+
+h1 {
+  font-family: "Poppins", sans-serif;
+  color: #000000;
+}
+
+h2 {
+  font-size: 20px;
+  font-weight: lighter;
+  color: #000000;
+}
+
+h3 {
+  font-size: 2vh;
+  font-weight: bold;
+  text-align: center;
+}
+
+h4{
+  writing-mode: vertical-lr;
+  font-size: 0vw;
+}
+
+h5{
+  padding:1vw;
+  margin:0;
+  color: #ffffff;
+}
+
+#projects{
+  height: 50vh;
+  background-color:rgb(0, 132, 255) ;
+  padding-top: 50px;
+}
+
+#pr1{
+  background-color: rgb(82, 113, 255);
+  height: 50vh;
+}
+
+#pr1 .textPr1{    
+  margin: 0;
+  position: absolute;
+  top: -50%;
+  left: -50%;
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);}
+
+              /* animation 3d */
+
+#warehouse3d{
+  background-color: rgb(129, 0, 84);
+  height: 50vh;
+  overflow: hidden;
+  position: relative;
+}
+
+#warehouse3d:hover img{
+  opacity: 0.5;
+  }
+  
+#warehouse3d img{
+  cursor: url('/img/pointer.png'), auto;
+  opacity: 0;
+  transition: 2s ease;
+  object-fit:scale-down;
+}
+
+#warehouse3d .textProject1{
+  margin: 0;
+  position: absolute;
+  top: 20%;
+  left: 10%;
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+}
+
+              /* animation github */
+
+#github{
+  background-color: rgb(0, 127, 129);
+  height: 50vh;
+  overflow: hidden;
+  position: relative;
+}
+
+#github .textGithub{
+  margin: 0;
+  position: absolute;
+  top: 20%;
+  left: 10%;
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+}
+
+#github:hover img{
+  opacity: 0.5;
+}
+
+#github img{
+  cursor: url('/img/pointer.png'), auto;
+  opacity: 0;
+  transition: 2s ease;
+  object-fit:scale-down;
+}
+
+#filling{
+  background-color: #ff5500;
+}
+
+#pr3{
+  background-color: rgb(119, 255, 0);
+  height: 50vh;
+}
+
+#projects1{
+  height: 50vh;
+  background-color:rgb(255, 255, 255) ;
+}
+
+#pr4{
+  background-color: rgb(249, 0, 0);
+  height: 50vh;
+}
+
+#pr5{
+  background-color: rgb(43, 0, 255);
+  height: 50vh;
+}
+
+#pr6{
+  background-color: rgb(12, 145, 0);
+  height: 50vh;
+}
+
+              /* side animations */
+
+
+.side h3{
+  -ms-writing-mode: tb-rl;
+  writing-mode: vertical-lr;
+  transform: rotate(180deg);
+}
+
+.side {
+  cursor: url('/img/pointer.png'), auto;
+  text-decoration: none;
+  filter: drop-shadow(0px 0px 10px rgba(0,0,0,.3));
+  font-size: 14px;
+  color:black;
+  text-align: justify;
+  line-height: 3vh;
+}
+
+td{
+  padding: 20px;
+}
+
+#animAbout .side {
+  position: absolute;
+  top: 300px;
+  left: -430px;
+  transition: 2s;
+  padding: 15px;
+  width: 500px;
+  background-color: rgb(140, 109, 252);
+}
+
+#animAbout .side:hover {
+  left: 0;
+}
+
+#animTools .side{
+  position: absolute;
+  top:400px;
+  right: -430px;
+  transition: 2s;
+  padding: 15px;
+  width: 500px;
+  background-color: rgb(255, 48, 48);
+  cursor: url('/img/pointerUpRight.png'), auto;
+}
+
+#animTools .side:hover {
+  right: 0;
+}
+
+#animTools td{
+  padding-right: 0px;
+}
+
+#animSkills .side {
+  position: absolute;
+  top: 700px;
+  left: -430px;
+  transition: 2s;
+  padding: 15px;
+  width: 500px;
+  background-color: rgb(238, 255, 0);
+}
+
+#animSkills .side:hover {
+  left: 0;
+}
+
+#animEdu .side{
+  position: absolute;
+  top:800px;
+  right: -730px;
+  transition: 2s;
+  padding: 15px;
+  width: 800px;
+  background-color: rgb(0, 136, 255);
+  cursor: url('/img/pointerUpRight.png'), auto;
+  
+}
+
+#animEdu .side:hover {
+  right: 0;
+}
+
+#animEdu .side{
+overflow: hidden;
+}
+
+#animEdu td{
+  padding-right: 0px;
+}
+
+
+#animCareer .side {
+  position: absolute;
+  top: 1100px;
+  left: -630px;
+  transition: 2s;
+  padding: 15px;
+  width: 700px;
+  background-color: rgb(1, 182, 1);
+}
+
+#animCareer .side:hover {
+  left: 0;
+}
+
+
+
+#animCertif .side{
+  position: absolute;
+  top:1200px;
+  right: -630px;
+  transition: 2s;
+  padding: 15px;
+  width: 700px;
+  background-color: rgb(255, 0, 81);
+  cursor: url('/img/pointerUpRight.png'), auto;
+  
+}
+
+#animCertif .side:hover {
+  right: 0;
+}
+
+#animCertif .side{
+overflow: hidden;
+}
+
+#animCertif td{
+  padding-right: 0px;
+}
+
+footer{
+  background-color:rgb(29, 19, 90);
+
+}
+
+footer h2{
+  color: white;
+}
+
+.fa {
+  padding: 25px;
+  font-size: 50px;
+  width: 100px;
+  height: 100px;
+  text-align: center;
+  text-decoration: none;
+}
+
+/* Add a hover effect if you want */
+.fa:hover {
+  opacity: 0.7;
+}
+
+.fa-linkedin {
+  background: #007bb5;
+  color: white;
+}
+
+.fa-facebook {
+  background: #3B5998;
+  color: white;
+}
+
+.fa-flickr {
+  background: #f40083;
+  color: white;
+}
+
+.fa-soundcloud {
+  background: #ff5500;
+  color: white;
+}
+
+.fa-youtube {
+  background: #bb0000;
+  color: white;
+}
+
+.fa-instagram {
+  background: #125688;
+  color: white;
+}
+
+.fa-twitter {
+  background: #55ACEE;
+  color: white;
+}
+
+@media only screen and (max-width: 1200px) {
+  .animText {
+    font-size: 16px;
+  }
+  #animAbout:hover{
+    width: 50vw;
+    height: 25vh;
+  }
+  
+  #animTools:hover{
+    width: 40vw;
+    height: 30vh;
+  }
+
+  #animSkills:hover{
+    width: 70vw;
+    height: 35vh;
+  }
+
+  #animCareer:hover{
+    width: 80vw;
+    height: 20vh;
+  }
+
+  #animEdu:hover{
+    width: 80vw;
+    height: 20vh;
+  }
+
+  #animCertif:hover{
+    width: 200px;
+    
+  }
+
+  .targetBlank{
+    display: none;
+  }
+
+  .targetSelf{
+    display: block;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  #pr1, #pr4, #pr5, #pr6, #square3, #filling, #projects1{
+    display: none;
+  }
+
+  #footer{
+    padding: 0px;
+  }
+
+  #footer row{
+    height:auto;
+    margin:0px;
+    padding: 0px;
+  }
+
+  .fa{
+    padding-top: 35px;
+    font-size: 35px;
+  }
+
+}
+
+
+
+
