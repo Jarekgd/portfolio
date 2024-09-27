@@ -1,22 +1,440 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta
       name="description"
-      content="Jaroslaw God Software Emgineer portfolio"
+      content="Jaroslaw Glod Software Engineer personal page."
     />
-    <title>Jaroslaw Glod portfolio</title>
+    <meta
+      name="keywords"
+      content="pogramming, developer, HTML, CSS, JavaScript, bootstrap, "
+    />
+    <meta name="author" content="Jaroslaw Glod" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
       href="https://fonts.googleapis.com/css2?family=Poppins:wght@100&display=swap"
       rel="stylesheet"
     />
-
+    <title>Jaroslaw Glod portfolio</title>
+    <link rel="icon" type="image/x-icon" href="/img/favicon.ico" />
+    <!-- Bootstrap CSS -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.3/dist/umd/popper.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.min.js"></script>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <link rel="stylesheet" href="/css/style.css" />
   </head>
   <body>
-    <div id="root"></div>
+    <!-- top navigation -->
+    <div id="main" class="container-fluid p-0 m-0 g-0">
+      iv>
+      <div class="topnav fixed-top g-0 m-0" id="myTopnav">
+        <a href="#hero" class="active">Home</a>
+        <a href="#projects">Projects</a>
+        <a href="#footer">Contact</a>
+      </div>
+
+      <!-- hero -->
+
+      <div id="hero" class="container-fluid p-0 m-0 g-0">
+        <div class="row g-0">
+          <div class="col-md-8 p-0 m-0">
+            <div class="row pt-5 ps-3" id="square1">
+              <h1 id="authorName" class="display-1 pt-5">Jaroslaw Glod</h1>
+              <h2 id="title">Software Engineer</h2>
+            </div>
+            <div id="square2" class="row p-0 m-0">
+              <div class="col-md-7 ps-5 g-0 p-0 m-0" id="square3"></div>
+
+              <div class="container col-md-5 g-0 p-0 m-0" id="square4">
+                <div class="row container-fluid g-0" id="square5">
+                  <h5 class="textGallery">Gallery</h5>
+                  <a
+                    href="/gallery.html"
+                    title="gallery"
+                    target="_blank"
+                    class="targetBlank"
+                  >
+                    <img
+                      src="/img/09th.jpg"
+                      class="img-fluid"
+                      alt="painting"
+                      class="m-0 p-0 g-0"
+                    />
+                  </a>
+                  <a
+                    href="/gallery.html"
+                    title="gallery"
+                    target="_self"
+                    class="targetSelf"
+                  >
+                    <img
+                      src="/img/09th.jpg"
+                      class="img-fluid"
+                      alt="painting"
+                      class="m-0 p-0 g-0"
+                    />
+                  </a>
+                </div>
+                <div class="row g-0" id="square6">
+                  <h5 class="textVideo">Video</h5>
+                  <a
+                    href="/video.html"
+                    title="video gallery"
+                    target="_blank"
+                    class="targetBlank"
+                  >
+                    <img
+                      src="/img/mq2th.jpg"
+                      class="img-fluid"
+                      alt="painting"
+                      class="object-fit-fill g-0"
+                    />
+                  </a>
+                  <a
+                    href="/video.html"
+                    title="video gallery"
+                    target="_self"
+                    class="targetSelf"
+                  >
+                    <img
+                      src="/img/mq2th.jpg"
+                      class="img-fluid"
+                      alt="painting"
+                      class="object-fit-fill g-0"
+                    />
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div id="me" class="col-md-4 p-0 m-0">
+            <img
+              src="/img/sam0.png"
+              alt="Author"
+              class="img-fluid"
+              id="meImage"
+            />
+          </div>
+        </div>
+      </div>
+      <div id="projects" class="container-fluid p-0 m-0 g-0">
+        <div class="row p-0 m-0 -0" id="row1">
+          <div class="col-sm-3 p-0 m-0" id="pr1">
+            <h5 class="textPr1">Project in progress</h5>
+          </div>
+          <div class="col-sm-4 p-0 m-0" id="warehouse3d">
+            <h5 class="textProject1">3D models</h5>
+            <a
+              href="3d.html"
+              rel="noopener"
+              title="3D models"
+              target="_blank"
+              class="targetBlank"
+            >
+              <img
+                src="/img/3d.jpg"
+                class="img-fluid"
+                alt="3d"
+                class="object-fit-fill g-0 p-0 m-0"
+              />
+            </a>
+            <a
+              href="3d.html"
+              title="3D models"
+              target="_self"
+              class="targetSelf"
+            >
+              <img
+                src="/img/3d.jpg"
+                class="img-fluid"
+                alt="3d"
+                class="object-fit-fill g-0 p-0 m-0"
+              />
+            </a>
+          </div>
+          <div class="col-sm-4 p-0 m-0" id="github">
+            <h5 class="textGithub">Github</h5>
+            <a
+              href="https://github.com/Jarekgd/recipeManager"
+              rel="noopener"
+              title="github"
+              target="_blank"
+              class="targetBlank"
+            >
+              <img
+                src="/img/code.jpg"
+                class="img-fluid"
+                alt="code"
+                class="object-fit-fill g-0 p-0 m-0"
+              />
+            </a>
+            <a
+              href="https://github.com/Jarekgd/recipeManager"
+              title="github"
+              target="_self"
+              class="targetSelf"
+            >
+              <img
+                src="/img/code.jpg"
+                class="img-fluid"
+                alt="code"
+                class="object-fit-fill g-0 p-0 m-0"
+              />
+            </a>
+          </div>
+          <div class="col-1" id="filling"></div>
+        </div>
+      </div>
+
+      <div id="projects1" class="container-fluid p-0 m-0">
+        <div class="row">
+          <div class="col-5 p-0 m-0" id="pr4"></div>
+          <div class="col-3 p-0 m-0" id="pr5">
+            <h5 class="textProject">Project 3 - in progress</h5>
+          </div>
+          <div class="col-4 p-0 m-0" id="pr6">
+            <h5 class="textProject">Project4 - in progress</h5>
+          </div>
+        </div>
+      </div>
+
+      <!-- side animations -->
+      <div id="sideMenu">
+        <div id="animAbout">
+          <table class="side">
+            <tr>
+              <td class="textAbout">
+                Thanks to different jobs, I have gained many valuable skills,
+                like teamwork, communication with customers, and working under
+                pressure. I pay close attention to detail and abstract and
+                innovative thinking. My strengths are creativity, and the
+                ability to learn quickly and cooperate without conflicts.
+              </td>
+              <td><h3>ABOUT ME</h3></td>
+            </tr>
+          </table>
+        </div>
+
+        <div id="animTools">
+          <table class="side">
+            <tr>
+              <td><h3>TOOLS</h3></td>
+              <td class="textTools">
+                <ul>
+                  <li>Visual Studio Code</li>
+                  <li>Replit</li>
+                  <li>Microsoft Azure Portal</li>
+                  <li>Git & GitHub</li>
+                  <li>Unreal Engine</li>
+                  <li>3DMax, Blender</li>
+                  <li>AutoCAD</li>
+                  <li>Photoshop, Illustrator</li>
+                </ul>
+              </td>
+            </tr>
+          </table>
+        </div>
+
+        <div id="animSkills">
+          <table class="side">
+            <tr>
+              <td class="textTools">
+                <ul>
+                  <li>Programming skills in Python, JavaScript, C</li>
+                  <li>CSS (Cascading Style Sheets), Bootstrap</li>
+                  <li>REST API\'s</li>
+                  <li>React JS, Next JS</li>
+                  <li>Problem solving, Numeracy and Literacy skills, Agile</li>
+                  <li>Graphic design</li>
+                  <li>3D graphics and animations</li>
+                  <li>Digital Sound Editing</li>
+                </ul>
+              </td>
+              <td><h3>SKILLS</h3></td>
+            </tr>
+          </table>
+        </div>
+
+        <div id="animEdu">
+          <table class="side">
+            <tr>
+              <td><h3>EDUCATION</h3></td>
+              <td class="textTools">
+                <ul>
+                  <li>
+                    Computing - Foundation Year - Solent University - 2023
+                  </li>
+                  <li>
+                    Architecture and Urban Planning, Master Degree - Bialystok
+                    University of Technology, Poland - 2010
+                  </li>
+                  <li>
+                    Secondary School, GCSE Sixth Form A-level equivalent - III
+                    LO Bialystok Poland
+                  </li>
+                </ul>
+              </td>
+            </tr>
+          </table>
+        </div>
+
+        <div id="animCareer">
+          <table class="side">
+            <tr>
+              <td class="textTools">
+                <ul>
+                  <li>
+                    Sep 2023 - Software Engineering Bootcamp - Intern at IN4/
+                    Skills City
+                  </li>
+                  <li>Jun 2016 - Present - B&M Retail - Speke - Trainer</li>
+                  <li>
+                    Jun 2005 - May 2016 - ARTENDE Art Gallery - Bialystok,
+                    Poland - Self-employed
+                  </li>
+                </ul>
+              </td>
+              <td><h3>CAREER</h3></td>
+            </tr>
+          </table>
+        </div>
+
+        <div id="animCertif">
+          <table class="side">
+            <tr>
+              <td><h3>CERTIFICATES</h3></td>
+              <td class="textTools">
+                <ul>
+                  <li>
+                    Introduction to Python Programming Level 1 - QA Teach the
+                    Nation Code - May 2023
+                  </li>
+                  <li>
+                    Cybersecurity Essentials - Cisco Networking Academy - April
+                    2003
+                  </li>
+                  <li>Grow to Greatness - Coursera - March 2013</li>
+                  <li>
+                    Introduction to Digital Sound Design - Coursera - May 2013
+                  </li>
+                  <li>Song writing - Coursera - May 2013</li>
+                  <li>Survey of Music Technology - Coursera - Nov 2013</li>
+                </ul>
+              </td>
+            </tr>
+          </table>
+        </div>
+      </div>
+      <!-- footer -->
+
+      <footer class="container-fluid p-5 m-0" id="footer">
+        <div class="row p-0 m-0">
+          <div class="col-sm ms-5 ps-5">
+            <h2>CONTACT</h2>
+            <br />
+            <form method="post" action="send-email.php">
+              <input
+                type="text"
+                name="name"
+                id="name"
+                placeholder="Fullname"
+                required
+              />
+              <br />
+              <input
+                type="email"
+                name="email"
+                placeholder="Email Address"
+                id="email"
+                required
+              />
+              <br />
+              <input
+                type="text"
+                name="subject"
+                id="subject"
+                placeholder="Subject"
+                required
+              />
+              <br />
+              <textarea
+                name="message"
+                id="message"
+                placeholder="Your questions..."
+                cols="30"
+                rows="5"
+                required
+              ></textarea>
+              <br />
+              <button type="submit">Send message</button>
+            </form>
+            <div class="col-lg p-5"></div>
+          </div>
+          <div class="col-lg ms-5 ps-5">
+            <a
+              href="https://www.linkedin.com/in/jaroslawglod/"
+              rel="noopener"
+              class="fa fa-linkedin"
+              title="linkedin"
+              target="_blank"
+            ></a>
+            <a
+              href="https://www.facebook.com/jaroslaw.glod/"
+              rel="noopener"
+              class="fa fa-facebook"
+              title="facebook"
+              target="_blank"
+            ></a>
+            <a
+              href="https://www.flickr.com/photos/artende"
+              rel="noopener"
+              class="fa fa-flickr"
+              title="flickr"
+              target="_blank"
+            ></a>
+            <a
+              href="https://soundcloud.com/glodek"
+              rel="noopener"
+              class="fa fa-soundcloud"
+              title="soundcloud"
+              target="_blank"
+            ></a>
+            <a
+              href="https://www.youtube.com/@JarekGlod"
+              rel="noopener"
+              class="fa fa-youtube"
+              title="youtube"
+              target="_blank"
+            ></a>
+            <a
+              href="https://www.instagram.com/artende/"
+              rel="noopener"
+              class="fa fa-instagram"
+              title="instagram"
+              target="_blank"
+            ></a>
+            <a
+              href="https://twitter.com/glodek"
+              rel="noopener"
+              class="fa fa-twitter"
+              title="twitter"
+              target="_blank"
+            ></a>
+          </div>
+        </div>
+      </footer>
+    </div>
+    <?php include "send-email.php" ?>
+    <script src="/js/script.js"></script>
   </body>
 </html>
